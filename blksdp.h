@@ -42,7 +42,7 @@
 #define FORT(x) BLASFUNC(x)
 #else
 #include "blas.h"
-#define FORT(x) FORTRAN_WRAPPER(x)
+#define FORT(x) x
 typedef ptrdiff_t blasint;
 #endif
 
